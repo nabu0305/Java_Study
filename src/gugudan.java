@@ -1,10 +1,14 @@
+import java.util.Scanner;
+
 public class gugudan {
     public static void main(String[] args) {
-        for(int i = 2;i<=3;i++){
-            for(int j=1;j<=9;j++){
-                System.out.println(i*j);
-            }
-        }
-         
+        System.out.println("구구단 중 출력할 단은? : ");
+        Scanner scanner = new Scanner(System.in);
+        int number = scanner.nextInt();
+
+        for(int i=1;i<=9;i++){
+            int result = number * i;     
+            System.out.println("number : " + result);
+        }    
     }
 }
