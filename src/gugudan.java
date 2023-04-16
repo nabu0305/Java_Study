@@ -1,9 +1,9 @@
-import java.util.Scanner;
+
 
 public class gugudan {
-    public static int[] calculate(int times) {
+    public static int[] calculate(int times,int second) {
         int[] result = new int[9];
-        for (int i = 0; i < result.length; i++) {
+        for (int i = 0; i < second; i++) {
             // 계산 결과를 배열에 저장
             result[i] = times * (i+1); 
         }
