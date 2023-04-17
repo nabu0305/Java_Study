@@ -13,9 +13,10 @@ public class Prompt{
         
         while(true){
             System.out.println("년도를 입력하세요.");
+            System.out.print("YEAR> ");
             year = scanner.nextInt();
             System.out.println("월을 입력하세요.");
-            System.out.print(PROMPT);
+            System.out.print("MONTH> ");
             month = scanner.nextInt();
             if(month == -1){
                 break;
